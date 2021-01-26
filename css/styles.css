@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width:1400px;
+}
+
+header.container-home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    margin-right: 18px;
+}
+
+.logo {
+    color: #D6000D;
+}
+
+img {
+    width: 50px;
+}
